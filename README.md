@@ -1,4 +1,5 @@
-# ENG2112-Submission-Bin :grinning:
+<h1 align="center">ENG2112-Submission-Bin</h1><br>
+
 ## Programming Assignment 1
 ### Alphabet Soup Problem
 <strong>[This takes sentences or words and then alphabetically arranges the letters.]<br></strong>
