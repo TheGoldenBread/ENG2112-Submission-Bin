@@ -32,3 +32,6 @@ I needed to create a 10x10 array containing the squared 100 positive integers. T
    - Added a lower function on the alphabet soup problem, ensuring capital letters don't go first, and added more test cases with special characters.
    - Added a test case in the emotify problem where a word in the dictionary was typed with mixed cases and could still recognize the word properly and replaced.
    - Scrapped the previous code to add a function (as per suggestion) that checks if the length of the list is more than 3 if not then properly addresses it then still uses previous logic to unpack and show the result. Added test cases to see how it handles more than 3 elements and less than 3 elements.
+
+<br><hr>
+[:arrow_up: Back to top](#ENG2112)
