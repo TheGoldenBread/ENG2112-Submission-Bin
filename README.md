@@ -28,6 +28,25 @@ I first created the random 5x5 array and assigned it to a letter. Then, using Nu
 <strong>[Create a 10x10 array containing the first squared 100 positive integers]<br></strong>
 I needed to create a 10x10 array containing the squared 100 positive integers. To do that I first had to create a 1d array and squared that. Using NumPy's reshape function, I reshaped it to a 10x10. Then through a modulo, it figured out what elements where divisible by 3 if the remainder returned a 0, then those elements got put into a list and was showed.
 
+## Programming Assignment 2
+### Problem 1
+<strong>[Load the given cars.csv file and display the first and last 5 rows.]<br></strong>
+For this problem, I had to load the given cars.csv file through Panda's read function. After that, I used the .head() and .tails() functions; however, it only outputted the last 5 rows. So I tried using print, and the results were unsatisfactory, so I asked ChatGPT what to use, and it said to use the concat function, and lo and behold, it now works.
+
+### Problem 2
+<strong>[Load the given cars.csv file and extract the following information.]<br></strong>
+#### a. Display the first five rows with odd-numbered columns (columns 1, 3, 5, 7...) of cars.
+For this, I had no idea what to do, I tried doing it manually, like getting the location of each column, but it was way too long, so I asked ChatGPT what to do, and it said to use the :: operator paired with a 2 to take every two columns which corresponds to its odd columns.
+
+#### b. Display the row that contains the ‘Model’ of ‘Mazda RX4’.
+I just had to display the row containing the model mentioned, so I used the .loc function and specified what label it should look for and what name in that label to find and show its row.
+
+#### c. How many cylinders (‘cyl’) does the car model ‘Camaro Z28’ have?
+It has the same principle as the previous one, but instead of showing the whole row, I added a specification to only output the number of cylinders.
+
+#### d. Determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
+This one was hard for me; it was easy to output one of the models with the specified cylinders and gear but to output all 3, I had no idea what to do, so once again, I asked ChatGPT for some advice and it said to me to use the "|" OR operator to combine all the conditions into one, and it works. (I love you ChatGPT ❤️)
+
 # Version History
 * v.01
    - Added a lower function on the alphabet soup problem, ensuring capital letters don't go first, and added more test cases with special characters.
