@@ -30,11 +30,11 @@ I needed to create a 10x10 array containing the squared 100 positive integers. T
 
 ## Programming Assignment 3
 ### Problem 1
-<strong>[Load the given cars.csv file and display the first and last 5 rows.]<br></strong>
+<strong>[Load the given [cars.csv](https://github.com/TheGoldenBread/ENG2112-Submission-Bin/blob/main/cars.csv) file and display the first and last 5 rows.]<br></strong>
 For this problem, I had to load the given cars.csv file through Panda's read function. After that, I used the .head() and .tails() functions; however, it only outputted the last 5 rows. So I tried using print, and the results were unsatisfactory, so I asked ChatGPT what to use, and it said to use the concat function, and lo and behold, it now works.
 
 ### Problem 2
-<strong>[Load the given cars.csv file and extract the following information.]<br></strong>
+<strong>[Load the given [cars.csv](https://github.com/TheGoldenBread/ENG2112-Submission-Bin/blob/main/cars.csv) file and extract the following information.]<br></strong>
 #### a. Display the first five rows with odd-numbered columns (columns 1, 3, 5, 7...) of cars.
 For this, I had no idea what to do, I tried doing it manually, like getting the location of each column, but it was way too long, so I asked ChatGPT what to do, and it said to use the :: operator paired with a 2 to take every two columns which corresponds to its odd columns.
 
@@ -49,7 +49,7 @@ This one was hard for me; it was easy to output one of the models with the speci
 
 ## Programming Assignment 4
 ### ECE Board Exam Problem
-<strong>[With the given board2.csv file create the following.]<br></strong>
+<strong>[With the given [board2.csv](https://github.com/TheGoldenBread/ENG2112-Submission-Bin/blob/main/board2.csv) file create the following.]<br></strong>
 #### 1. Using the given dataset sent, create the following data frames based on the format provided.
 ##### a. Filename: Instru = [“Name”, “GEAS”, “Electronics >70”]; where track is constant as Instrumentation and hometown Luzon
 So, I first had to take all the necessary elements and put them all into the data set. I took all the columns with the Instrumentation track, the same with Luzon as the hometown. Then, I filtered out all the elements where the grade in Electronics was above 70. After that, I only had to show the needed labels: Name, GEAS, and the filtered-out Electronic scores.
