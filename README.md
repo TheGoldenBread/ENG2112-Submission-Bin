@@ -47,6 +47,19 @@ It has the same principle as the previous one, but instead of showing the whole 
 #### d. Determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
 This one was hard for me; it was easy to output one of the models with the specified cylinders and gear but to output all 3, I had no idea what to do, so once again, I asked ChatGPT for some advice and it said to me to use the "|" OR operator to combine all the conditions into one, and it works. (I love you ChatGPT ❤️)
 
+## Programming Assignment 4
+### ECE Board Exam Problem
+<strong>[With the given board2.csv file create the following.]<br></strong>
+#### 1. Using the given dataset sent, create the following data frames based on the format provided.
+##### a. Filename: Instru = [“Name”, “GEAS”, “Electronics >70”]; where track is constant as Instrumentation and hometown Luzon
+So, I first had to take all the necessary elements and put them all into the data set. I took all the columns with the Instrumentation track, the same with Luzon as the hometown. Then, I filtered out all the elements where the grade in Electronics was above 70. After that, I only had to show the needed labels: Name, GEAS, and the filtered-out Electronic scores.
+
+##### b. Filename: Mindy = ["Name", "Track", "Electronics", "Average >=55"]; where hometown is constant as Mindanao and gender Female
+I used the same trick as the previous one, but I needed to add to the data set the average of all the scores combined and then filter out that, too. Same process as last time, I only showed the needed labels, which this time were Name, Track, Electronics, and the filtered-out Average.
+
+#### 2. Create a visualization that shows how the different features contributes to average grade. Does chosen track in college, gender, or hometown contributes to a higher average score?
+Now this... I kept mulling and looking at the Matplotlib and Seaborn Cheat Sheet. I'm not going to sugarcoat it; I don't get it. So, I completely just copied what ChatGPT said.
+
 # Version History
 * v.01
    - Added a lower function on the alphabet soup problem, ensuring capital letters don't go first, and added more test cases with special characters.
