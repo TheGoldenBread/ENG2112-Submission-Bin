@@ -28,7 +28,7 @@ I first created the random 5x5 array and assigned it to a letter. Then, using Nu
 <strong>[Create a 10x10 array containing the first squared 100 positive integers]<br></strong>
 I needed to create a 10x10 array containing the squared 100 positive integers. To do that I first had to create a 1d array and squared that. Using NumPy's reshape function, I reshaped it to a 10x10. Then through a modulo, it figured out what elements where divisible by 3 if the remainder returned a 0, then those elements got put into a list and was showed.
 
-## Programming Assignment 2
+## Programming Assignment 3
 ### Problem 1
 <strong>[Load the given cars.csv file and display the first and last 5 rows.]<br></strong>
 For this problem, I had to load the given cars.csv file through Panda's read function. After that, I used the .head() and .tails() functions; however, it only outputted the last 5 rows. So I tried using print, and the results were unsatisfactory, so I asked ChatGPT what to use, and it said to use the concat function, and lo and behold, it now works.
